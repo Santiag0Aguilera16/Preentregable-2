@@ -1,0 +1,115 @@
+/*--Estilo header--*/
+  
+  header {
+    background-color: #f8f8f8;
+    padding: 10px 10px;
+    border-bottom: 3px solid #020000;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Contenedor del Logo e Información */
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px; /* Ajusta el tamaño del logo */
+    margin-right: 10px;
+  }
+  
+  /* Contenedor de Textos */
+  .text-container h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #000;
+
+  }
+  
+  .text-container h2 {
+    margin: 0;
+    font-size: 1rem;
+    color: #000;
+
+  }
+  
+  /* Menú de Navegación */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Espacio entre los enlaces */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    color: #5c2929;
+  }
+  
+  /*--Estilo de la Sección Inicio--*/
+
+.inicio {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../images/fondo-cuero.jpg');;     /* Ruta de la imagen de fondo */
+    background-size: cover; /* Para que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    filter: brightness(0.7); /* Oscurece un poco el fondo */
+}
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  /* Contenedor de Texto */
+  .text-container {
+    max-width: 600px;
+
+  }
+  
+  .text-container p {
+    margin: 0 0 20px 0;
+    font-size: 1.2rem;
+  }
+  
+  .text-1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f5f5f5;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+  
+  .text-2 {
+    line-height: 1.6;
+    font-weight: bold;
+    color: #f5f5f5;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+  
+  /* Contenedor de la Imagen */
+  .image-container img {
+    max-width: 400px;
+    width: 100%;
+    border: 6px solid #333;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10%;
+  }
+  
