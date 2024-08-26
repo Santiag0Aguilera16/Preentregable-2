@@ -1,115 +1,400 @@
 /*--Estilo header--*/
-  
-  header {
-    background-color: #f8f8f8;
-    padding: 10px 10px;
-    border-bottom: 3px solid #020000;
-  }
-  
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  /* Contenedor del Logo e Información */
-  .logo-container {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo {
-    height: 40px; /* Ajusta el tamaño del logo */
-    margin-right: 10px;
-  }
-  
-  /* Contenedor de Textos */
-  .text-container h1 {
-    margin: 0;
-    font-size: 1.5rem;
-    color: #000;
 
-  }
-  
-  .text-container h2 {
-    margin: 0;
-    font-size: 1rem;
-    color: #000;
+header {
+  padding: 10px 10px;
+  border-bottom: 3px solid #000000;
+  background-color: #583c3c;
+}
 
-  }
-  
-  /* Menú de Navegación */
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px; /* Espacio entre los enlaces */
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-  }
-  
-  .nav-links a:hover {
-    color: #5c2929;
-  }
-  
-  /*--Estilo de la Sección Inicio--*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Contenedor del Logo e Información */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px; /* Ajusta el tamaño del logo */
+  margin-right: 10px;
+}
+
+/* Contenedor de Textos */
+.text-container h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.text-container h2 {
+  margin: 0;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+/* Menú de Navegación */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px; /* Espacio entre los enlaces */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #000000;
+}
+
+/*-----------------------------*/
+/*--Estilo del boton ver mas--*/
+.btn-ver-mas {
+  background-color: #583c3c; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  padding: 10px 20px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  font-size: 16px; /* Tamaño de fuente */
+  transition: background-color 0.7s; /* Transición suave */
+}
+
+.btn-ver-mas:hover {
+  background-color: #000000; /* Color de fondo al hacer hover */
+}
+
+.contenedor-boton {
+  text-align: center; /* Centra el botón */
+}
+/*-------------------------------*/
+/*--Estilo de la Sección Inicio--*/
 
 .inicio {
-    padding: 40px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url('../images/fondo-cuero.jpg');;     /* Ruta de la imagen de fondo */
-    background-size: cover; /* Para que la imagen cubra todo el contenedor */
-    background-position: center; /* Centra la imagen en el contenedor */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    filter: brightness(0.7); /* Oscurece un poco el fondo */
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("/images/textura-cuero-fondo.jpg"); /* Ruta de la imagen de fondo */
+  background-size: cover; /* Para que la imagen cubra todo el contenedor */
+  background-position: center; /* Centra la imagen en el contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
-  
-  .content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    width: 100%;
-  }
-  
-  /* Contenedor de Texto */
-  .text-container {
-    max-width: 600px;
 
-  }
-  
-  .text-container p {
-    margin: 0 0 20px 0;
-    font-size: 1.2rem;
-  }
-  
-  .text-1 {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: #f5f5f5;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-  }
-  
-  .text-2 {
-    line-height: 1.6;
-    font-weight: bold;
-    color: #f5f5f5;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-  }
-  
-  /* Contenedor de la Imagen */
-  .image-container img {
-    max-width: 400px;
-    width: 100%;
-    border: 6px solid #333;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 10%;
-  }
-  
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* Contenedor de Texto */
+.text-container {
+  max-width: 600px;
+}
+
+.text-container p {
+  margin: 0 0 20px 0;
+  font-size: 1.2rem;
+}
+
+.text-1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #f5f5f5;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.text-2 {
+  line-height: 1.6;
+  font-weight: bold;
+  color: #f5f5f5;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Contenedor de la Imagen */
+.image-container img {
+  max-width: 400px;
+  width: 100%;
+  border: 6px solid #333;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10%;
+}
+
+/*Estilo Seccion Servicios*/
+#servicios {
+  padding: 50px 0;
+  background-image: url("/images/textura-cuero-fondo.jpg"); /* Ruta de la imagen de fondo */
+  background-size: cover; /* Para que la imagen cubra todo el contenedor */
+  background-position: center; /* Centra la imagen en el contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+#servicios h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+#servicios .card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#servicios .contenedor-boton {
+  margin-top: 50px;
+}
+
+
+
+
+/* Estilo para el título y la frase */
+#taller{
+background-image: url("/images/textura-cuero-fondo.jpg"); /* Ruta de la imagen de fondo */
+  background-size: cover; /* Para que la imagen cubra todo el contenedor */
+  background-position: center; /* Centra la imagen en el contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.header-taller {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header-taller h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.header-taller p {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+/* Grid estilo Tetris */
+.tetris-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 150px);
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.grid-item {
+  background-color: #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Definiciones de las posiciones del grid */
+.item1 {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+}
+
+.item2 {
+  grid-column: 3 / 5;
+  grid-row: 1 / 3;
+}
+
+.item3 {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.item4 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 4;
+}
+
+.item5 {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.item6 {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+
+.item7 {
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+}
+
+
+/* Estilo para los tres círculos con imágenes */
+.circles-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.circle {
+  text-align: center;
+}
+
+.circle img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.circle p {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+
+
+
+
+#galeria{
+  background-image: url("/images/textura-cuero-fondo.jpg"); /* Ruta de la imagen de fondo */
+  background-size: cover; /* Para que la imagen cubra todo el contenedor */
+  background-position: center; /* Centra la imagen en el contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+.galeria-section {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+.galeria-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.galeria-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.carousel-inner img {
+  height: 500px;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+/* Sección de Contacto */
+
+#contacto{
+  background-image: url("/images/textura-cuero-fondo.jpg"); /* Ruta de la imagen de fondo */
+  background-size: cover; /* Para que la imagen cubra todo el contenedor */
+  background-position: center; /* Centra la imagen en el contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+.contacto-section {
+  background-color: #000; /* Fondo negro */
+  padding: 50px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.contacto-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contacto-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.contacto-info, .contacto-form {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  width: 45%; /* Ajuste automático en pantallas más pequeñas */
+}
+
+.contacto-info h3, .contacto-form h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.contacto-info p {
+  margin: 30px 0;
+}
+
+.redes-sociales ul {
+  list-style: none;
+  padding: 0;
+}
+
+.redes-sociales li {
+  margin: 20px 0;
+}
+
+.redes-sociales a {
+  color: #00bfff;
+  text-decoration: none;
+}
+
+.redes-sociales a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos del formulario */
+.contacto-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto-form label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.contacto-form input,
+.contacto-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.contacto-form button {
+  padding: 10px;
+  background-color: #00bfff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contacto-form button:hover {
+  background-color: #0088cc;
+}
+
