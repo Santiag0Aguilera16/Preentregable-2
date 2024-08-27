@@ -83,7 +83,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("/images/textura-cuero-fondo.jpg"); /* Ruta de la imagen de fondo */
+  background-image: url("../images/textura-cuero-fondo.jpg"); /* Ruta de la imagen de fondo */
   background-size: cover; /* Para que la imagen cubra todo el contenedor */
   background-position: center; /* Centra la imagen en el contenedor */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -133,7 +133,7 @@ header {
 /*Estilo Seccion Servicios*/
 #servicios {
   padding: 50px 0;
-  background-image: url("images/textura-cuero-fondo.jpg"); /* Ruta de la imagen de fondo */
+  background-image: url("../images/textura-cuero-fondo.jpg"); /* Ruta de la imagen de fondo */
   background-size: cover; /* Para que la imagen cubra todo el contenedor */
   background-position: center; /* Centra la imagen en el contenedor */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -157,7 +157,7 @@ header {
 
 /* Estilo para el título y la frase */
 #taller{
-background-image: url("images/textura-cuero-fondo.jpg"); /* Ruta de la imagen de fondo */
+background-image: url("../images/textura-cuero-fondo.jpg"); /* Ruta de la imagen de fondo */
   background-size: cover; /* Para que la imagen cubra todo el contenedor */
   background-position: center; /* Centra la imagen en el contenedor */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -268,7 +268,7 @@ background-image: url("images/textura-cuero-fondo.jpg"); /* Ruta de la imagen de
 
 
 #galeria{
-  background-image: url("images/textura-cuero-fondo.jpg"); /* Ruta de la imagen de fondo */
+  background-image: url("../images/textura-cuero-fondo.jpg"); /* Ruta de la imagen de fondo */
   background-size: cover; /* Para que la imagen cubra todo el contenedor */
   background-position: center; /* Centra la imagen en el contenedor */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -306,13 +306,12 @@ background-image: url("images/textura-cuero-fondo.jpg"); /* Ruta de la imagen de
 /* Sección de Contacto */
 
 #contacto{
-  background-image: url("images/textura-cuero-fondo.jpg"); /* Ruta de la imagen de fondo */
+  background-image: url("../images/textura-cuero-fondo.jpg"); /* Ruta de la imagen de fondo */
   background-size: cover; /* Para que la imagen cubra todo el contenedor */
   background-position: center; /* Centra la imagen en el contenedor */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
 .contacto-section {
-  background-color: #000; /* Fondo negro */
   padding: 50px 20px;
   color: #fff;
   text-align: center;
