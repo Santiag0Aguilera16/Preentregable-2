@@ -89,24 +89,12 @@ header {
   background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
 
-.content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  width: 100%;
-}
-
-/* Contenedor de Texto */
+/* Contenedor de texto */
 .text-container {
-  max-width: 600px;
+  margin-bottom: 20px;
 }
 
-.text-container p {
-  margin: 0 0 20px 0;
-  font-size: 1.2rem;
-}
-
+/* Estilos para los párrafos */
 .text-1 {
   font-size: 1.8rem;
   font-weight: bold;
@@ -121,13 +109,15 @@ header {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
-/* Contenedor de la Imagen */
-.image-container img {
-  max-width: 400px;
-  width: 100%;
-  border: 6px solid #333;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 10%;
+/* Contenedor del video */
+.video-container {
+  margin: 20px 0;
+}
+
+/* Estilos del video */
+.video-container video {
+  max-width: 100%;
+  height: auto;
 }
 
 /*Estilo Seccion Servicios*/
@@ -397,3 +387,40 @@ background-image: url("../images/textura-cuero-fondo.jpg"); /* Ruta de la imagen
   background-color: #0088cc;
 }
 
+
+/* Media Queries */
+
+/* Estilos para dispositivos móviles (por defecto, no se necesita una media query específica) */
+
+/* Estilos para tablets (768px o más) */
+@media screen and (min-width: 768px) {
+  body {
+      font-size: 18px;
+  }
+
+  header {
+      padding: 1.5em 0;
+      max-width: 1200px; /* Limita el ancho máximo del header */
+      margin: 0 auto; /* Centra el header en la pantalla */
+  }
+
+  .nav-links {
+      display: flex;
+      justify-content: space-around; /* Ajusta la navegación para tablets */
+  }
+}
+
+/* Estilos para desktops (1024px o más) */
+@media screen and (min-width: 1024px) {
+  header {
+      display: flex;
+      justify-content: space-between; /* Distribuye el espacio entre el contenido */
+      max-width: 1200px; /* Limita el ancho máximo del header */
+      margin: 0 auto; /* Centra el header en la pantalla */
+  }
+
+  .nav-links {
+      display: flex;
+      justify-content: space-between; /* Ajusta la navegación para desktops */
+  }
+}
