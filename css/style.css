@@ -98,7 +98,7 @@ header {
 }
 
 /* Efecto hover para el botón */
-/* Cambia el color de fondo a negro al pasar el ratón */
+/* Cambia el color de fondo a negro al pasar por encima */
 .btn-ver-mas:hover {
   background-color: #000000;
 }
@@ -107,6 +107,7 @@ header {
 .contenedor-boton {
   text-align: center;
 }
+
 /*-------------------------------*/
 /*-- Estilo de la Sección "Inicio" --*/
 
@@ -172,7 +173,8 @@ header {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
-/* Estilo para la sección "Servicios" */
+/*-------------------------------*/
+/*-- Estilo de la Sección "Servicios" --*/
 /* Padding para espacio interno y fondo con imagen ajustada */
 #servicios {
   padding: 50px 0;
@@ -199,7 +201,8 @@ header {
   margin-top: 50px;
 }
 
-/* Estilo para la sección "Taller" */
+/*-------------------------------*/
+/*-- Estilo de la Sección "Taller" --*/
 /* Fondo con imagen ajustada, similar a otras secciones */
 #taller {
   background-image: url("../images/textura-cuero-fondo.jpg");
@@ -222,14 +225,14 @@ header {
   color: #ffffff;
 }
 
-/* Estilo para la frase o descripción en la sección taller */
+/* Estilo para el parrafo en la sección taller */
 /* Color blanco y tamaño de fuente mediano */
 .header-taller p {
   font-size: 1.2rem;
   color: #ffffff;
 }
 
-/* Grid estilo "Tetris" para disposición de imágenes */
+/* Grid para disposición de imágenes */
 /* Se definen columnas y filas, con espacio entre elementos */
 .tetris-grid {
   display: grid;
@@ -240,7 +243,7 @@ header {
 }
 
 /* Estilo para cada ítem dentro del grid */
-/* Fondo gris claro, bordes redondeados y overflow oculto para evitar desbordes */
+/* Fondo gris claro, bordes redondeados */
 .grid-item {
   background-color: #ccc;
   border-radius: 5px;
@@ -257,7 +260,7 @@ header {
   display: block;
 }
 
-/* Definición específica de la posición de cada ítem dentro del grid */
+/* posición de cada ítem dentro del grid */
 .item1 {
   grid-column: 1 / 3;
   grid-row: 1 / 2;
@@ -293,8 +296,8 @@ header {
   grid-row: 3 / 4;
 }
 
-/* Estilo para los círculos con imágenes */
-/* Flexbox para alinear los círculos de manera equitativa */
+/* Estilo para los círculos */
+/* Flexbox para alinear los círculos */
 .circles-container {
   display: flex;
   justify-content: space-around;
@@ -324,7 +327,8 @@ header {
   color: #ffffff;
 }
 
-/* Sección "Galería" con fondo e imagen ajustada */
+/*-------------------------------*/
+/*-- Estilo de la Sección "Galeria" --*/
 #galeria {
   background-image: url("../images/textura-cuero-fondo.jpg");
   background-size: cover;
