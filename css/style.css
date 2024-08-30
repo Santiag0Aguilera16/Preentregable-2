@@ -515,6 +515,7 @@ header {
   }
 
   .nav-links {
+    
     display: flex;
     justify-content: space-between;
   }
